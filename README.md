@@ -1,2 +1,2 @@
-# RegisterAndLogin
-Register and login on a website
+# RegisterAndLogin\
+Simple registration and login on a website
