@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+
+    <form id="register" action="register.php" method="post">
+<div class="form">
+        <header>
+            <h1>Register</h1>
+        </header>
+
+        <main>
+            <input type="text" name="name" placeholder="name.." required> <br>
+            <input type="email" name="mail" placeholder="E-mail.." required>
+            <input type="password" name="pass" id="pass" placeholder="password (5-20)" required>
+            <span id="error" class="error"></span>
+        </main>
+
+        <button type="submit">Register</button>
+  <div class="reset">
+      <button type="button" onclick="reset()">Clear data</button>
+  </div>
+    <p>Already registered? <a href="login.html">Login</a></p>
+    <footer>
+            <p>All rights not reserved.
+               &copy; 2024</p>
+        </footer>
+</div>
+</form>
+<script src="script.js">
+</script>
+</body>
+</html>
